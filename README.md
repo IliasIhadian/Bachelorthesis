@@ -1,4 +1,4 @@
-# Meine Bachelorarbeit
+# My Bachelorthesis
 
 In this README.md, you will find general information about my algorithm. Enjoy!
 
