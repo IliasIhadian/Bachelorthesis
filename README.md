@@ -1,6 +1,6 @@
 # My Bachelorthesis
 
-In this README.md, you will find general information about my algorithm. Enjoy!
+In this README.md, you will find general information about my algorithm. Enjoy! U will find the the written bachelorthesis in ba.pdf.
 
 ## Getting started
 
