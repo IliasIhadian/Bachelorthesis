@@ -1,0 +1,8 @@
+%%% Die folgende Zeile nicht ändern!
+\section*{\ifthenelse{\equal{\sprache}{deutsch}}{Zusammenfassung}{Abstract}}
+%%% Zusammenfassung:
+Alpha matting is a process of determining $\alpha$ values to determine the foreground and background precisely. The difficulty lies in determining the $\alpha$ values, especially in complex regions and fine details. Different algorithms were developed to solve this problem, such as the k-nearest-neighbor-matting (KNNM) or closed-form-matting (CFM). These algorithms have difficulties they need to overcome. 
+The primary objective of this bachelor thesis is to develop a highly precise image matting algorithm. The proposed Local and Non-Local Color Line Model (LNCLM) achieves this by combining the strengths of existing models and overcoming their limitations.
+The LNCLM algorithm gets an image and a Trimap as inputs. Afterward, these inputs go through 3 stages. First, we search for the 2 different kinds of neighbors for each pixel. One kind of neighbor is the one we get through using knn, and the other is encompassed around the pixel in a window. Secondly, we calculate the 2 different Laplacian matrices for each of these to different neighbors. Moreover, lastly, we determine the $\alpha$ matte with these Laplacian matrices.
+The experimental results show that combining local and non-local principles gives us better results. We have better results compared to KNNM and CFM. Therefore, we can say that the proposed algorithm identifies holes, complex regions, and fine details better.
+
